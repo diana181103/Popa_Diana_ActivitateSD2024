@@ -1,2 +1,10 @@
-1,dep,3,1,2,3
-2,depp,2,2,3
+1,dep,2,1,2
+2,depp,2,1,2
+3,selgros,3,1,2,3
+4,emag,4,1,2,3,4
+5,depozit,2,1,2
+6,deppp,2,1,2
+7,depppp,2,1,2
+8,selgros1,3,1,2,3
+9,emag2,4,1,2,3,4
+10,depozit3,2,1,2
