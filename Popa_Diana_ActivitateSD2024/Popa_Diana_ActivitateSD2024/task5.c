@@ -179,7 +179,7 @@ Depozit* filtrareLista(Nod* lista) {
 
 void interschimbare(Nod** lista, int poz1, int poz2) {
     if (poz1 == poz2) {
-        return; // Nu facem nimic dacă pozițiile sunt aceleași
+        return; 
     }
 
     int index = 0;
@@ -188,7 +188,7 @@ void interschimbare(Nod** lista, int poz1, int poz2) {
     Nod* current1 = *lista;
     Nod* current2 = *lista;
 
-    // Căutăm nodurile de la pozițiile specificate
+ 
     while (current1 != NULL && index < poz1) {
         prev1 = current1;
         current1 = current1->next;
@@ -202,12 +202,12 @@ void interschimbare(Nod** lista, int poz1, int poz2) {
         index++;
     }
 
-    // Verificăm dacă am găsit nodurile corespunzătoare pozițiilor
+  
     if (current1 == NULL || current2 == NULL) {
-        return; // Una dintre poziții nu există în lista dată
+        return; 
     }
 
-    // Schimbăm legăturile între noduri
+    
     if (prev1 != NULL) {
         prev1->next = current2;
     }
